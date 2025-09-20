@@ -19,7 +19,7 @@ DHT dht(DHTPIN, DHTTYPE);
 WebServer server(80);
 
 // Variables for sensor readings
-float temperature = 28.3;  // fixed value
+float temperature = 26.3;  // fixed value
 float humidity = 57.4;     // fixed value
 int soilMoistureValue = 0;
 
